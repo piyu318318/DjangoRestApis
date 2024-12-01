@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Register/', views.RegisterUser.as_view(), name="home")
+    path('', views.HomePage.as_view(), name="homepage"),
+    path('myapis/register/', views.RegisterUser.as_view(), name="home")
 
 ]

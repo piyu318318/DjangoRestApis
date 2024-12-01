@@ -1,6 +1,10 @@
 from rest_framework import serializers
 from django.contrib.auth.hashers import make_password
 from .models import Users  #import the user model from model.py
+from django.views import View
+from django.http import HttpResponse
+
+
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
