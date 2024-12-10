@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
+https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
@@ -81,7 +82,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', #django.db.backends.mysql
+        'ENGINE': 'mysql.connector.django', #use ysql.connector  to connect with database
         'NAME': 'piyushtest1',
         'USER': 'root',
         'PASSWORD': 'root123',
