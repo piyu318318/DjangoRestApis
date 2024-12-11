@@ -1,0 +1,16 @@
+*************************************************
+api type  : post
+http://localhost:8000/myapis/login/  
+{
+    "userName": "piyush123456789",
+    "email": "piyush1223@gmail.com",
+    "password": "StrongPassword1234!"
+}
+*************************************************
+api type  : post
+http://localhost:8000/myapis/register/
+{
+    "userName": "piyush123456789",
+    "password": "StrongPassword1234!"
+}
+*************************************************
